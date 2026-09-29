@@ -8,8 +8,8 @@
 |--------|-----------|
 | Cesar Aybar | 100692670 |
 | Jeremy Alcequiez | 100633989 |
-| _Completar_ | _Completar_ |
-| _Completar_ | _Completar_ |
+| Dennis Faneyte |  100534187 |
+| José García | 100680928 |
 
 ## Descripción
 Aplicación de consola para administrar productos, categorías e inventario de una empresa:
