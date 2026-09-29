@@ -7,7 +7,7 @@
 | Nombre | Matrícula |
 |--------|-----------|
 | Cesar Aybar | 100692670 |
-| _Completar_ | _Completar_ |
+| Jeremy Alcequiez | 100633989 |
 | _Completar_ | _Completar_ |
 | _Completar_ | _Completar_ |
 
