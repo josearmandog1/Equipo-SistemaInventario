@@ -32,8 +32,8 @@ categoría; mostrar productos agotados y generar un resumen del inventario.
 ## Cómo ejecutar
 Requisito: .NET SDK 8.0 o superior.
 ```bash
-git clone <URL-del-repositorio>
-cd InventarioAlmacen
+git clone https://github.com/josearmandog1/Equipo-SistemaInventario.git
+cd Equipo-SistemaInventario
 dotnet run
 ```
 Tip: la opción **13** del menú carga datos de ejemplo para probar rápido.
