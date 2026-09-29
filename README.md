@@ -4,12 +4,12 @@
 **Lenguaje:** C# (.NET 8) — Aplicación de consola
 
 ## Integrantes
-| Nombre | Matrícula | Responsabilidad principal |
-|--------|-----------|---------------------------|
-| _Completar_ | _Completar_ | _Ej.: Modelos Producto y Categoria_ |
-| _Completar_ | _Completar_ | _Ej.: Almacen (búsqueda, eliminación)_ |
-| _Completar_ | _Completar_ | _Ej.: Menú y validaciones de entrada_ |
-| _Completar_ | _Completar_ | _Ej.: ReporteInventario, UML y memoria_ |
+| Nombre | Matrícula |
+|--------|-----------|
+| Cesar Aybar | 100692670 |
+| _Completar_ | _Completar_ |
+| _Completar_ | _Completar_ |
+| _Completar_ | _Completar_ |
 
 ## Descripción
 Aplicación de consola para administrar productos, categorías e inventario de una empresa:
