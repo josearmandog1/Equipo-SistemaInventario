@@ -38,5 +38,3 @@ dotnet run
 ```
 Tip: la opción **13** del menú carga datos de ejemplo para probar rápido.
 
-## Distribución del trabajo
-_Completar con el reparto real del equipo (debe coincidir con el historial de commits)._
