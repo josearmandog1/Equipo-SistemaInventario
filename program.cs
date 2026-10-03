@@ -101,5 +101,17 @@ class Program
         else
             Console.WriteLine("Ya existe un producto con ese codigo.");
     }
+     static void Buscar()
+    {
+        Console.Write("Codigo: ");
+        var p = almacen.BuscarPorCodigo(Console.ReadLine());
+        Console.WriteLine(p == null ? "No encontrado." : p.ToString());
+    }
+ 
+    static void Eliminar()
+    {
+        Console.Write("Codigo: ");
+        Console.WriteLine(almacen.Eliminar(Console.ReadLine()) ? "Eliminado." : "No encontrado.");
+    }
 }
 
