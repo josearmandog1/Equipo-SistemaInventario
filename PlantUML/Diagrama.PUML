@@ -1,0 +1,70 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Producto {
+
+Codigo : string
+
+Nombre : string
+
+Precio : decimal
+
+Cantidad : int
+
+Categoria : string
+
+Producto(codigo: string, nombre: string, precio: decimal, cantidad: int, categoria: string)
+
+ToString() : string
+}
+
+class Almacen {
+
+productos : List
+
+Categorias : List
+
+Registrar(p: Producto) : bool
+
+BuscarPorCodigo(codigo: string) : Producto
+
+Eliminar(codigo: string) : bool
+
+Listar() : List
+
+PorCategoria(categoria: string) : List
+
+Agotados() : List
+
+Resumen() : string
+}
+
+class Program {
+
+{static} almacen : Almacen
+
+{static} Main() : void
+
+{static} Registrar() : void
+
+{static} Buscar() : void
+
+{static} Eliminar() : void
+
+{static} PorCategoria() : void
+
+{static} Listar(lista: List) : void
+}
+
+Almacen "1" -- "0.." Producto : contiene >
+Program "1" --> "1" Almacen : gestiona >
+
+note as TablaIntegrantes
+Integrantes del Equipo
+|= Nombre |= Usuario GitHub |= Matrícula |
+| Cesar Aybar | XxNatsuENDxX | 100692670 |
+| Dennis Faneyte | dennisfaneyte-lab | 100534187|
+| José García | josearmandog1 | 100680928 |
+| Jeremy Alcequiez | Jeremyalce02-boop | 100633989 |
+end note
+@enduml
