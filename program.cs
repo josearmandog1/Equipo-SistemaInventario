@@ -77,4 +77,29 @@ class Program
             }
         } while (opcion != "0");
     }
+        static void Registrar()
+    {
+        int cantidad;
+        bool cantidadValida;
+ 
+        Console.Write("Codigo: "); string codigo = Console.ReadLine();
+        Console.Write("Nombre: "); string nombre = Console.ReadLine();
+        Console.Write("Precio: "); decimal.TryParse(Console.ReadLine(), out decimal precio);
+        do
+        {
+            Console.Write("Cantidad: ");
+            cantidadValida = int.TryParse(Console.ReadLine(), out cantidad) && cantidad >= 0;
+            if (!cantidadValida)
+                Console.WriteLine("La cantidad debe ser un número entero mayor o igual a cero.");
+        } while (!cantidadValida);
+ 
+        Console.WriteLine("Categorias: " + string.Join(", ", almacen.Categorias));
+        Console.Write("Categoria: "); string categoria = Console.ReadLine();
+ 
+        if (almacen.Registrar(new Producto(codigo, nombre, precio, cantidad, categoria)))
+            Console.WriteLine("Producto registrado.");
+        else
+            Console.WriteLine("Ya existe un producto con ese codigo.");
+    }
 }
+
