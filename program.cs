@@ -51,3 +51,30 @@ class Almacen
         return $"Productos: {productos.Count} | Unidades: {unidades} | Valor total: ${valor}";
     }
 }
+
+class Program
+{
+    static Almacen almacen = new Almacen();
+ 
+    static void Main()
+    {
+        string opcion;
+        do
+        {
+            Console.WriteLine("\n1.Registrar \n2.Buscar \n3.Eliminar \n4.Listar \n5.PorCategoria \n6.Agotados \n7.Resumen \n0.Salir");
+            Console.Write("Opcion: ");
+            opcion = Console.ReadLine();
+ 
+            switch (opcion)
+            {
+                case "1": Registrar(); break;
+                case "2": Buscar(); break;
+                case "3": Eliminar(); break;
+                case "4": Listar(almacen.Listar()); break;
+                case "5": PorCategoria(); break;
+                case "6": Listar(almacen.Agotados()); break;
+                case "7": Console.WriteLine(almacen.Resumen()); break;
+            }
+        } while (opcion != "0");
+    }
+}
