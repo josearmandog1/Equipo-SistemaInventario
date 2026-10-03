@@ -113,5 +113,16 @@ class Program
         Console.Write("Codigo: ");
         Console.WriteLine(almacen.Eliminar(Console.ReadLine()) ? "Eliminado." : "No encontrado.");
     }
+    static void PorCategoria()
+    {
+        Console.Write("Categoria: ");
+        Listar(almacen.PorCategoria(Console.ReadLine()));
+    }
+ 
+    static void Listar(List<Producto> lista)
+    {
+        if (lista.Count == 0) { Console.WriteLine("Sin resultados."); return; }
+        foreach (var p in lista) Console.WriteLine(p);
+    }
 }
 
