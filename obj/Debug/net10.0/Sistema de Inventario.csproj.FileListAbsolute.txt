@@ -1,0 +1,16 @@
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\bin\Debug\net10.0\Sistema de Inventario.exe
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\bin\Debug\net10.0\Sistema de Inventario.deps.json
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\bin\Debug\net10.0\Sistema de Inventario.runtimeconfig.json
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\bin\Debug\net10.0\Sistema de Inventario.dll
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\bin\Debug\net10.0\Sistema de Inventario.pdb
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.AssemblyInfoInputs.cache
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.AssemblyInfo.cs
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.csproj.CoreCompileInputs.cache
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.sourcelink.json
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.dll
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\refint\Sistema de Inventario.dll
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.pdb
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema de Inventario.genruntimeconfig.cache
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\ref\Sistema de Inventario.dll
+C:\Users\ARMAN2\Documents\GitHub\Equipo-SistemaInventario\obj\Debug\net10.0\Sistema .B34EF690.Up2Date
