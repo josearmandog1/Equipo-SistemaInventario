@@ -1,9 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 class Producto
 {
-    // Propiedades del producto
+    // Product properties
     public string Codigo, Nombre;
     public decimal Precio;
     public int Cantidad;
@@ -82,10 +82,10 @@ class Program
 
     static void Registrar()
     {
-        // Limpiar la pantalla y recoger datos del producto con validación
+        // Clear screen and collect product data with validation
         Console.Clear();
 
-        // Leer y validar código (no vacío)
+        // Read and validate code (non-empty)
         string codigo;
         do
         {
@@ -95,7 +95,7 @@ class Program
                 Console.WriteLine("Codigo no puede estar vacío.");
         } while (string.IsNullOrEmpty(codigo));
 
-        // Leer y validar nombre (no vacío)
+        // Read and validate name (non-empty)
         string nombre;
         do
         {
@@ -105,7 +105,7 @@ class Program
                 Console.WriteLine("Nombre no puede estar vacío.");
         } while (string.IsNullOrEmpty(nombre));
 
-        // Leer y validar precio (decimal >= 0)
+        // Read and validate price (decimal >= 0)
         decimal precio;
         while (true)
         {
@@ -116,7 +116,7 @@ class Program
             Console.WriteLine("Ingrese un precio válido (número, mayor o igual a 0).");
         }
 
-        // Leer y validar cantidad (entero >= 0)
+        // Read and validate quantity (integer >= 0)
         int cantidad;
         while (true)
         {
@@ -127,7 +127,7 @@ class Program
             Console.WriteLine("La cantidad debe ser un número entero mayor o igual a cero.");
         }
 
-        // Permitir al usuario elegir una categoría de la lista disponible (validar selección)
+        // Let user choose a category from the available list (validate selection)
         string categoria = null;
         while (true)
         {
@@ -143,14 +143,14 @@ class Program
             }
             else if (!string.IsNullOrEmpty(entradaCat))
             {
-                // Aceptar nombre si coincide con una categoría existente (sin distinguir mayúsculas)
+                // Accept name if it matches an existing category (case-insensitive)
                 var match = almacen.Categorias.Find(c => c.Equals(entradaCat, StringComparison.OrdinalIgnoreCase));
                 if (match != null) { categoria = match; break; }
             }
             Console.WriteLine("Categoria inválida. Intente de nuevo.");
         }
 
-        // Intentar registrar el producto
+        // Attempt to register the product
         if (almacen.Registrar(new Producto(codigo, nombre, precio, cantidad, categoria)))
             Console.WriteLine("Producto registrado.");
         else
@@ -158,7 +158,7 @@ class Program
     }
     static void Buscar()
     {
-        // Buscar un producto por código con entrada no vacía
+        // Search a product by code with non-empty input
         Console.Clear();
         string codigo;
         do
@@ -173,7 +173,7 @@ class Program
 
     static void Eliminar()
     {
-        // Eliminar producto por código (validar entrada)
+        // Delete product by code (validate input)
         Console.Clear();
         string codigo;
         do
@@ -187,7 +187,7 @@ class Program
     }
     static void PorCategoria()
     {
-        // Listar productos por categoría, validando la entrada contra las categorías disponibles
+        // List products by category, validating input against available categories
         Console.Clear();
         string categoria;
         while (true)
